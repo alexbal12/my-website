@@ -62,6 +62,12 @@ body {
   margin: 0 auto;
   justify-items: center;
 }
+.link-apx {
+  font-family: "Roboto";
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
 .subtitulo-info-personal,
 .subtitulo-servicios,
 .subtitulo-contacto {
