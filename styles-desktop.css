@@ -1,6 +1,6 @@
 @media (min-width: 950px) {
   body {
-    background-image: url(../img/puntitos-desktop.png);
+    background-image: url(./img/puntitos-desktop.png);
   }
   .encabezado {
     grid-template-columns: 1fr 1fr;
