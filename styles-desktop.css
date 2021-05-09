@@ -43,6 +43,8 @@
     display: flex;
     justify-self: right;
     align-self: flex-end;
+    width: 435px;
+    height: 435px;
   }
   .info-personal {
     grid-template-columns: 40% 60%;
@@ -60,7 +62,7 @@
     width: 211px;
     height: 211px;
     background-color: #4caf50;
-    border: solid 6px #ffd953;
+    border: solid 10px #ffd953;
     border-radius: 10px;
     margin-left: auto;
   }

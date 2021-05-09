@@ -42,14 +42,16 @@ body {
   font-family: "Open Sans";
   font-size: 48px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 52px;
+  margin-top: 10px;
+  margin-bottom: 42px;
 }
 .imagen-personal-desktop {
   display: none;
 }
 .imagen-personal-mobile {
   margin: 0 auto;
+  width: 318px;
+  height: 318px;
 }
 .info-personal {
   background-color: black;
