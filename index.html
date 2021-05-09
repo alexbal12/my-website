@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles-mobile.css" />
+    <link rel="stylesheet" href="./styles-desktop.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Alex Balieiro</title>
+  </head>
+  <body>
+    <header class="encabezado">
+      <nav class="menu">
+        <div>
+          <img class="logo" src="./img/icono.png" alt="logo" />
+        </div>
+        <div class="menu-desplegable">
+          <div class="rectangulo-negro"></div>
+          <div class="rectangulo-negro"></div>
+          <div class="rectangulo-negro"></div>
+        </div>
+        <div class="menu-estatico">
+          <a class="opciones" href="#info-personal">Quien soy</a>
+          <a class="opciones" href="#servicios">Servicios</a>
+          <a class="opciones" href="#contacto">Escribime</a>
+        </div>
+      </nav>
+      <h1 class="titulo-principal">Bienvenidos a mi sitio</h1>
+      <img
+        class="imagen-personal-mobile"
+        src="./img/img-marce-mobile.png"
+        alt="marce"
+      />
+      <img
+        class="imagen-personal-desktop"
+        src="./img/img-marce-desktop.png"
+        alt="marce"
+      />
+    </header>
+    <section class="info-personal" id="info-personal">
+      <header>
+        <h2 class="subtitulo-info-personal">Soy Alex</h2>
+      </header>
+      <article class="informacion">
+        <p class="parrafo-info-personal">
+          Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+          vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat
+          arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus.
+          Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et
+          sodales semper. Mauris nec tortor lectus. Curabitur nec ultricies
+          dolor.
+        </p>
+      </article>
+      <div class="cuadrado">
+        <img
+          class="checkmark-mobile"
+          src="./img/vector-mobile.png"
+          alt="checkmark"
+        />
+        <img
+          class="checkmark-desktop"
+          src="./img/vector-desktop.png"
+          alt="checkmark"
+        />
+      </div>
+    </section>
+    <section class="servicios" id="servicios">
+      <header class="header-servicios">
+        <h2 class="subtitulo-servicios">Mis servicios</h2>
+      </header>
+      <article class="articulo">
+        <img class="computer" src="./img/computer.png" alt="computer" />
+        <h3 class="mini-titulo">Hago cosas</h3>
+        <p class="parrafo-servicios">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure ab
+          alias a consectetur illum saepe ad. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Accusamus incidunt doloribus molestiae
+          aliquid quibusdam.
+        </p>
+      </article>
+      <article class="articulo">
+        <img class="computer" src="./img/computer.png" alt="computer" />
+        <h3 class="mini-titulo">Y mas cosas</h3>
+        <p class="parrafo-servicios">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure ab
+          alias a consectetur illum saepe ad.
+        </p>
+      </article>
+      <article class="articulo">
+        <img class="computer" src="./img/computer.png" alt="computer" />
+        <h3 class="mini-titulo">Y tambien otras cosas</h3>
+        <p class="parrafo-servicios">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure ab
+          alias a consectetur illum saepe ad.
+        </p>
+      </article>
+    </section>
+    <section class="contacto" id="contacto">
+      <header class="header-contacto">
+        <h2 class="subtitulo-contacto">Escribime</h2>
+      </header>
+      <div class="form">
+        <div class="fieldset">
+          <label class="label" for="nombre">NOMBRE</label>
+          <input class="input-nombre" id="nombre" type="text" />
+        </div>
+        <div class="fieldset">
+          <label class="label" for="email">EMAIL</label>
+          <input class="input-email" id="email" type="email" />
+        </div>
+        <div class="fieldset">
+          <label class="label" for="message">MENSAJE</label>
+          <textarea class="textarea" id="message"></textarea>
+        </div>
+        <button class="button">Enviar</button>
+      </div>
+    </section>
+    <footer class="redes-sociales">
+      <div>
+        <img class="logo-footer" src="./img/icono.png" alt="logo" />
+        <small class="copy">&copy 2021 Alex Balieiro </small>
+      </div>
+      <div class="redes">
+        <li>
+          <img class="logos" src="./img/instagram.png" alt="instagram" /><a
+            class="links"
+            href="https://www.instagram.com/alexbal12/"
+            >Instagram</a
+          >
+        </li>
+        <li>
+          <img class="logos" src="./img/linkedin.png" alt="linkedin" /><a
+            class="links"
+            href="https://www.linkedin.com/in/alex-balieiro-7212b09b/"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <img class="logos" src="./img/github.png" alt="github" />
+          <a class="links github" href="https://github.com/alexbal12">GitHub</a>
+        </li>
+      </div>
+    </footer>
+  </body>
+</html>
